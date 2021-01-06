@@ -181,3 +181,23 @@ i {
     color: white !important;
     margin-left: 20px;
 }
+
+.work-inquery-section-social {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.work-inquery-section-social h3 {
+    color: #a2a0a0 !important;
+}
+
+.work-inquery-section-social h2 {
+    text-transform: none;
+}
+
+.socal-img {
+    width: 60px;
+    height: auto;
+    margin-left: 3px;
+    display: inline-block;
+}
