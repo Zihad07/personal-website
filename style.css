@@ -19,15 +19,17 @@ h2 {
     font-size: 35px;
 }
 
-h3 {
-    font-size: 30px;
-}
+
 
 h1,
-h2,
-h3 {
+h2 {
     color: #222831;
     text-transform: uppercase;
+}
+
+h3 {
+    color: #222831;
+    font-size: 25px;
 }
 
 p {
@@ -51,6 +53,10 @@ li {
 
 .float-left {
     float: left;
+}
+
+.float-left {
+    float: right;
 }
 
 .clearfix::after {
@@ -118,3 +124,60 @@ i {
 }
 
 .download-img {}
+
+/* Portfolio section */
+
+.portfolio-section {
+    background: #e8e8e83b
+}
+
+.portfolio-header {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.project {
+    /* margin: auto; */
+}
+
+.project-1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px#8080806b;
+    height: 400px;
+}
+
+.project-img {
+    text-align: center;
+}
+
+.project-1 .project-summary {
+    font-size: 14px;
+    color: #a2a0a0;
+}
+
+/* work-inquery-section */
+.work-inquery-section-banner {
+    width: 80%;
+    margin: auto;
+    height: 150px;
+    background-image: url('./shapes/Group_33094_1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.work-inquery-section-banner .button {
+    margin-right: 20px;
+    margin-top: 45px;
+}
+
+.work-inquery-text {
+    display: inline-block;
+    color: white !important;
+    margin-left: 20px;
+}
