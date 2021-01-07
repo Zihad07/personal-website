@@ -155,7 +155,7 @@ i {
     padding: 5px 15px;
     border-radius: 10px;
     box-shadow: 5px 10px 10px #8080806b;
-    height: 420px;
+    height: 500px;
 }
 
 .project-img {
@@ -165,6 +165,10 @@ i {
 .project-1 .project-summary {
     font-size: 14px;
     color: #a2a0a0;
+}
+
+.project-1 img {
+    width: 100%;
 }
 
 /* work-inquery-section */
