@@ -81,6 +81,12 @@ section {
     float: left;
 }
 
+.width-40{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
 /* Button */
 .button {
     padding: 20px 35px;
@@ -91,7 +97,7 @@ section {
 }
 
 .button:hover {
-    color: white;
+    color: #222831;
 }
 
 i {
@@ -202,4 +208,48 @@ i {
     height: auto;
     margin-left: 3px;
     display: inline-block;
+}
+
+
+/* Contact section */
+
+.contact-section {
+    background: #e8e8e83b;
+}
+.contact-header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #a2a0a0;
+    font-size: 20px;
+    display: block;
+    background: transparent;
+}
+
+.contact-form-send {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.contact-form-send button {
+    border: none;
+    cursor: pointer;
+} 
+
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background: #222831;
+    color:#a2a0a0;
+    font-size: 14px;
 }
